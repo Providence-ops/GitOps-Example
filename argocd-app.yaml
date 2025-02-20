@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Providence-ops/GitOps-Example.git
     targetRevision: main
-    path: helm-chart/nginx
+    path: helm-chart/my-app
   destination:
     server: https://kubernetes.default.svc
     namespace: nginx  # Must match the namespace where you want it deployed
