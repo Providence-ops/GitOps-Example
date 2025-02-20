@@ -24,7 +24,7 @@ spec:
     metadata:
       name: "{{name}}-{{environment}}"
     spec:
-      project: multi-jobs
+      project: default
       source:
         repoURL: https://github.com/Providence-ops/GitOps-Example.git
         path: "{{repoPath}}"
