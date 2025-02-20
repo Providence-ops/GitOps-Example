@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: poc-multi-app-deploy
+  name: multi-app-deploy
   namespace: argocd
 spec:
   generators:
