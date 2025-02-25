@@ -11,14 +11,14 @@ spec:
               elements:
                 - environment: test
                   server: https://kubernetes.default.svc
-          - list:
-              elements:
-                - name: v1
-                  repoPath: helm-chart/my-app
-                  namespace: nginx
-                - name: v2
-                  repoPath: helm-chart/my-app
-                  namespace: nginx
+          # - list:
+              # elements:
+                # - name: v1
+                #   repoPath: helm-chart/my-app
+                #   namespace: nginx
+                # - name: v2
+                #   repoPath: helm-chart/my-app
+                #   namespace: nginx
     
   template:
     metadata:
